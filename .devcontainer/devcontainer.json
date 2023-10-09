@@ -1,0 +1,16 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "postgres": {
+      "image": "postgres",
+      "env": {
+        "POSTGRES_USER": "myuser",
+        "POSTGRES_PASSWORD": "mypassword",
+        "POSTGRES_DB": "mydb"
+      },
+      "ports": [
+        "5432:5432"
+      ]
+    }
+  }
+}
