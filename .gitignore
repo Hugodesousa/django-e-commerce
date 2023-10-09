@@ -1,2 +1,11 @@
+.env
+.venv
 db.sqlite3
+*.db
+.pyc
 __pycache__/
+*.log
+.vscode/
+.vscode-server/
+.pytest_cache/
+.cache/
